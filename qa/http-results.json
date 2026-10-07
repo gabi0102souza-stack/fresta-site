@@ -1,0 +1,52 @@
+[
+  {
+    "path": "index.html",
+    "status": 200,
+    "bytes": 11422
+  },
+  {
+    "path": "favicon.png",
+    "status": 200,
+    "bytes": 3317
+  },
+  {
+    "path": "fonts/instrument-sans-latin.woff2",
+    "status": 200,
+    "bytes": 30092
+  },
+  {
+    "path": "fonts/instrument-serif-italic-latin.woff2",
+    "status": 200,
+    "bytes": 22128
+  },
+  {
+    "path": "fonts/instrument-serif-latin.woff2",
+    "status": 200,
+    "bytes": 21032
+  },
+  {
+    "path": "images/fresta-symbol.webp",
+    "status": 200,
+    "bytes": 2626
+  },
+  {
+    "path": "images/luz.svg",
+    "status": 200,
+    "bytes": 2245
+  },
+  {
+    "path": "main.js",
+    "status": 200,
+    "bytes": 3663
+  },
+  {
+    "path": "og-fresta.png",
+    "status": 200,
+    "bytes": 58780
+  },
+  {
+    "path": "styles.css",
+    "status": 200,
+    "bytes": 19740
+  }
+]

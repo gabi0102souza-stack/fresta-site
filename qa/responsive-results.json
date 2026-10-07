@@ -1,0 +1,57 @@
+[
+  {
+    "requestedWidth": 360,
+    "brokenTargets": 0,
+    "clientWidth": 345,
+    "images": true,
+    "menuExpanded": "false",
+    "navHidden": true,
+    "scrollWidth": 345,
+    "serif": "\"Instrument Serif\", Georgia, serif",
+    "touchTargets": []
+  },
+  {
+    "requestedWidth": 390,
+    "brokenTargets": 0,
+    "clientWidth": 375,
+    "images": true,
+    "menuExpanded": "false",
+    "navHidden": true,
+    "scrollWidth": 375,
+    "serif": "\"Instrument Serif\", Georgia, serif",
+    "touchTargets": []
+  },
+  {
+    "requestedWidth": 430,
+    "brokenTargets": 0,
+    "clientWidth": 415,
+    "images": true,
+    "menuExpanded": "false",
+    "navHidden": true,
+    "scrollWidth": 415,
+    "serif": "\"Instrument Serif\", Georgia, serif",
+    "touchTargets": []
+  },
+  {
+    "requestedWidth": 768,
+    "brokenTargets": 0,
+    "clientWidth": 753,
+    "images": true,
+    "menuExpanded": "false",
+    "navHidden": false,
+    "scrollWidth": 753,
+    "serif": "\"Instrument Serif\", Georgia, serif",
+    "touchTargets": []
+  },
+  {
+    "requestedWidth": 1440,
+    "brokenTargets": 0,
+    "clientWidth": 1425,
+    "images": true,
+    "menuExpanded": "false",
+    "navHidden": false,
+    "scrollWidth": 1425,
+    "serif": "\"Instrument Serif\", Georgia, serif",
+    "touchTargets": []
+  }
+]

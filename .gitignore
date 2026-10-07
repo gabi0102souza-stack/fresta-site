@@ -1,0 +1,8 @@
+.sites-runtime/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+qa/benchmark-shots/
+research/*.png
+qa/benchmark-contact-sheet.jpg

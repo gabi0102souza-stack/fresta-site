@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1000" viewBox="0 0 900 1000">
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#45181e"/><stop offset=".52" stop-color="#8c3d40"/><stop offset="1" stop-color="#bb7060"/></linearGradient>
+    <linearGradient id="light" x1="0" y1=".3" x2="1" y2=".7"><stop stop-color="#f7e2b3"/><stop offset=".45" stop-color="#eecfa0"/><stop offset="1" stop-color="#d9b783"/></linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c6bda7"/><stop offset=".55" stop-color="#eee5d0"/><stop offset="1" stop-color="#baae97"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#423b2b"/><stop offset="1" stop-color="#8f8263"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="3"/></filter>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".64" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".13"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+  </defs>
+  <g filter="url(#grain)">
+    <path fill="url(#ground)" d="M0 0h900v1000H0z"/>
+    <path fill="#291f20" opacity=".28" filter="url(#blur)" d="M530 0h195L352 1000H101z"/>
+    <path fill="url(#light)" d="M607 0h88L329 1000H28z"/>
+    <path fill="#fae8bb" opacity=".42" filter="url(#soft)" d="M607 0h12L56 1000H28z"/>
+    <path fill="#211a18" opacity=".5" filter="url(#blur)" d="m876 78 89 782-507 50-134-601z"/>
+    <path fill="url(#edge)" d="m517 228 411-136 42 795-463 92-146-646z"/>
+    <path fill="url(#paper)" d="m504 207 396-139v741L471 942 344 323z"/>
+    <path fill="#fff1c9" opacity=".67" d="m504 207 33-12-178 589-15-461z"/>
+    <path fill="#7a7654" opacity=".5" d="m537 195 363-127v741L471 942 433 754z"/>
+    <path fill="#b9ab88" opacity=".28" d="m782 105 20 719-331 118-38-188z"/>
+    <path fill="#32281f" opacity=".2" filter="url(#soft)" d="m898 809-427 133 15 28 414-99z"/>
+    <path stroke="#ece4cf" stroke-opacity=".45" stroke-width="2" fill="none" d="m503 208-157 116 125 617"/>
+  </g>
+</svg>
