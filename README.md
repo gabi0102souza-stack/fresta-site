@@ -30,9 +30,13 @@ Destino preparado: `gabi0102souza-stack/fresta-site`.
 2. Em **Settings → Pages → Build and deployment**, selecione **GitHub Actions**.
 3. O workflow `.github/workflows/pages.yml` verifica e publica apenas `dist/`.
 
-URL pública configurada: https://gabi0102souza-stack.github.io/fresta-site/
+Site publicado e verificado: **https://gabi0102souza-stack.github.io/fresta-site/**
+
+Repositório: https://github.com/gabi0102souza-stack/fresta-site
 
 Publicação no GitHub autorizada pelo usuário em 07/10/2026. A prévia pública não depende do servidor local. Todos os caminhos internos são relativos; o OG usa a URL pública acima. O workflow publica somente `dist/`; screenshots de sites de terceiros ficam na pesquisa local e foram excluídos do Git. Alterações apenas na documentação não disparam nova publicação.
+
+Primeiro deploy concluído com sucesso. Página e nove assets conferidos por HTTPS, todos com status 200 e sem autenticação. Evidências em `qa/public-http-results.json` e `qa/public-preview.png`.
 
 ## Conteúdo e identidade
 

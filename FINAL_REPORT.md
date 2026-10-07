@@ -6,7 +6,7 @@ Pesquisa e revisão: **07/10/2026**, America/Sao_Paulo. Proposta com publicaçã
 
 Site completo de uma página em português brasileiro, com HTML, CSS e JavaScript nativos. Inclui hero, cozinha, consulta do cardápio, casa, imprensa datada, visita, reserva, endereço copiável e rodapé de apresentação. Os arquivos entregues estão em `dist/`; não há build obrigatório.
 
-Endereço público configurado: https://gabi0102souza-stack.github.io/fresta-site/. A prévia local em http://127.0.0.1:4173/fresta-site/ serve apenas para desenvolvimento. Captura final: [hero](qa/hero-final.png). Revisão e instruções: [README](README.md) e [QA_REPORT](qa/QA_REPORT.md).
+Site publicado e verificado: https://gabi0102souza-stack.github.io/fresta-site/. A prévia local em http://127.0.0.1:4173/fresta-site/ serve apenas para desenvolvimento. Captura pública: [site publicado](qa/public-preview.png). Revisão e instruções: [README](README.md) e [QA_REPORT](qa/QA_REPORT.md).
 
 O layout está finalizado com arte abstrata assumida. A falta de fotografias autorizadas não deixou blocos vazios ou imagens fictícias de pratos e salão.
 
@@ -120,6 +120,8 @@ Funcionamento confirmado localmente em **`/fresta-site/`**: caminhos relativos e
 Destino preparado: `gabi0102souza-stack/fresta-site`. Os metadados sociais usam a URL futura correspondente. Se o nome da conta ou repositório mudar, ajustar essas URLs absolutas.
 
 O usuário autorizou subir e publicar o projeto em 07/10/2026. O repositório de destino foi conferido pela conta autenticada `gabi0102souza-stack`; GitHub Pages usa o workflow. Screenshots de terceiros da pesquisa local foram excluídos do Git. A verificação externa da publicação é registrada no [QA_REPORT](qa/QA_REPORT.md).
+
+**Deploy concluído com sucesso:** [execução 37613715652](https://github.com/gabi0102souza-stack/fresta-site/actions/runs/37613715652), commit de site `946f4fe`. Dez requisições por HTTPS sem login retornaram 200; favicon, OG e fontes válidos. A versão pública foi aberta e inspecionada visualmente no navegador, sem erros ou avisos de console registrados.
 
 ## 15. BEFORE OUTREACH
 

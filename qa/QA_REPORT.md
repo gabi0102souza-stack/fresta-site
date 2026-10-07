@@ -1,6 +1,6 @@
 # QA da prévia FRESTA
 
-Revisão em 07/10/2026. Navegador local da sessão, subdiretório `/fresta-site/`. Não houve publicação ou conclusão de reserva.
+Revisão local em 07/10/2026, antes da publicação. Navegador da sessão, subdiretório `/fresta-site/`. Não houve conclusão de reserva ou contato com o restaurante.
 
 | Verificação | Resultado |
 | --- | --- |
@@ -20,6 +20,15 @@ Revisão em 07/10/2026. Navegador local da sessão, subdiretório `/fresta-site/
 
 Evidências: [larguras](responsive-results.json), [HTTP](http-results.json), [contraste](contrast-results.json), [hero final](hero-final.png), [sem JS](no-js-390.png) e capturas `responsive-*.png`.
 
-`git diff --check` foi executado sem erro; como o projeto é novo e está sem staging, também foi realizada verificação direta de espaços finais e marcadores de conflito nos arquivos textuais autorais da entrega. As duas licenças OFL de terceiros foram preservadas integralmente e excluídas desse critério de formatação. Não houve commit ou push.
+Antes do primeiro commit, `git diff --cached --check` passou para os arquivos autorais. As duas licenças OFL de terceiros foram preservadas integralmente e excluídas desse critério de formatação. O projeto foi enviado ao GitHub após autorização do usuário; nenhuma credencial foi salva nos arquivos.
 
 Limites: validação HTML própria, sem certificação W3C; sem leitor de tela, aparelhos físicos ou auditoria multibrowser; preferência de movimento reduzido aplicada via CSS de teste, não OS; Lighthouse não disponível; nenhuma métrica de campo inventada. As evidências externas confirmam destinos e documentos, não a vigência operacional do restaurante em outubro de 2026.
+
+## Publicação externa
+
+Publicação autorizada e concluída em **07/10/2026** no endereço **https://gabi0102souza-stack.github.io/fresta-site/**.
+
+- [GitHub Actions](https://github.com/gabi0102souza-stack/fresta-site/actions/runs/37613715652): `completed / success`, commit de site `946f4feed4ca97684cfa7f5c13c4123141e41d6e`.
+- Dez requisições públicas por HTTPS, sem credenciais: todas 200. Fontes WOFF2 e OG com dimensões válidas. [Resultados](public-http-results.json).
+- Versão pública aberta e verificada visualmente no navegador da sessão; nenhum erro ou aviso de console registrado. [Screenshot](public-preview.png).
+- O link público funciona sem o servidor local e pode ser compartilhado. Nenhuma mensagem foi enviada ao restaurante.

@@ -1,6 +1,6 @@
 # Benchmark de restaurantes
 
-Sites oficiais abertos em **07/10/2026** via pesquisa e navegador. **16 referências**: Europa, América do Norte, América Latina, Ásia e Oceania. Capturas de primeira dobra em `research/`. Não houve download de fotos para o site.
+Sites oficiais abertos em **07/10/2026** via pesquisa e navegador. **16 referências**: Europa, América do Norte, América Latina, Ásia e Oceania. Capturas de primeira dobra preservadas localmente em `research/`, excluídas do repositório público. Não houve download de fotos para o site.
 
 Limite: esta é uma avaliação de composição e utilidade, não uma auditoria Lighthouse dos concorrentes. Durações/easings não foram medidos; não se atribuem notas de performance ou acessibilidade. Mobile visual direto em Septime, Café Cecilia e Kiln; nos demais, comportamento mobile não foi certificado. Estados de mídia não carregada são descritos como observação da sessão.
 
